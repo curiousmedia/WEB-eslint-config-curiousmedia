@@ -1,0 +1,21 @@
+"use strict";
+
+module.exports = {
+	"extends": "eslint:recommended",
+	"env": {
+		"es6": true
+	},
+	"globals": {
+		"browser": true,
+		"document": true,
+		"window": true
+	},
+	"rules": {
+		"no-unused-vars": 0,
+		"no-undef": 0,
+		"no-empty": 1,
+		"no-console": 1,
+		"no-debugger": 1,
+		"no-unreachable": 1
+	}
+};
