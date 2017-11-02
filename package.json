@@ -13,7 +13,5 @@
   "author": "Jason Lavorante",
   "license": "ISC",
   "homepage": "https://bitbucket.org/curiousmedia/eslint-config-curiousmedia#readme",
-  "dependencies": {
-    "standard": "^10.0.3"
-  }
+  "dependencies": {}
 }
