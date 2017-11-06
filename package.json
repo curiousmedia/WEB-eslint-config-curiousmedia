@@ -1,11 +1,8 @@
 {
   "name": "@curiousmedia/eslint-config-curiousmedia",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint default configuration for Curious Media projects",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
