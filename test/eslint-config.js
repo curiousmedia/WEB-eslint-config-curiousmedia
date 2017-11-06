@@ -7,6 +7,6 @@ describe("Config", function () {
 	});
 
 	it("config matches eslintrc.json", function () {
-		expect(config).to.equal(require('../eslintrc.json'));
+		expect(config).to.equal(require('../.eslintrc.json'));
 	});
 });
