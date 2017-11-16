@@ -4,7 +4,7 @@
   "description": "ESLint default configuration for Curious Media projects",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "postinstall": "node scripts/postinstall.js"
   },
   "repository": {
     "type": "git",
