@@ -2,7 +2,7 @@
 	"extends": "eslint:recommended",
 	"parserOptions": {
 		"ecmaVersion": 6,
-		"sourceType": "script",
+		"sourceType": "module",
 		"ecmaFeatures": {
 			"jsx": true
 		}
@@ -43,6 +43,8 @@
 		"no-alert": 1,
 		"no-debugger": 1,
 		"no-unreachable": 1,
-		"no-warning-comments": 1
+		"no-warning-comments": 1,
+		"semi": 1,
+		"no-var": 1
 	}
 }
