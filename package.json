@@ -1,6 +1,6 @@
 {
   "name": "@curiousmedia/eslint-config-curiousmedia",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "ESLint default configuration for Curious Media projects",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,7 @@
   "author": "Jason Lavorante",
   "license": "ISC",
   "homepage": "https://bitbucket.org/curiousmedia/eslint-config-curiousmedia#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
