@@ -14,7 +14,6 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/curiousmedia/eslint-config-curiousmedia#readme",
   "dependencies": {
-    "prompt": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",

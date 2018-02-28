@@ -1,5 +1,4 @@
 let fs = require('fs');
-let prompt = require('prompt');
 let path = require('path');
 let projectRoot = require('path').resolve('../../../');
 
@@ -25,30 +24,10 @@ if(fs.existsSync(packageFile)) {
 
 //Prompt is necessary
 if(!configExists && !packageExists) {
-	let schema = {
-		properties: {
-			copy: {
-				pattern: /^[YyNn]+$/,
-				message: 'Please answer "y" or "n".',
-				description: `No .eslintrc was found in project root (${projectRoot}). Would you like it to be copied to root?`,
-				default: "y",
-				required: true
-			}
-		}
-	};
-
-	prompt.start();
-
-	prompt.get(schema, function (err, result) {
-		switch(result.copy) {
-			case "Y":
-			case "y":
-				fs.createReadStream('.eslintrc').on('error', function() {
-					console.error('Unable to read .eslintrc');
-				}).pipe(fs.createWriteStream(path.join(projectRoot, '.eslintrc')).on('error', function() {
-					console.error('Unable to write .eslintrc');
-				}));
-				break;
-		}
-	});
+	console.log('Eslint configuration not found. Copying .eslintrc to root.');
+	fs.createReadStream('.eslintrc').on('error', function() {
+		console.error('Unable to read .eslintrc');
+	}).pipe(fs.createWriteStream(path.join(projectRoot, '.eslintrc')).on('error', function() {
+		console.error('Unable to write .eslintrc');
+	}));
 }
