@@ -3,9 +3,7 @@
   "version": "2.0.0",
   "description": "ESLint default configuration for Curious Media projects",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "node scripts/postinstall.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://willis.curiousmedia.com:7991/scm/web/eslint-config-curiousmedia.git"
