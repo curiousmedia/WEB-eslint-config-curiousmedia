@@ -1,6 +1,6 @@
 {
   "name": "@curiousmedia/eslint-config-curiousmedia",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "ESLint default configuration for Curious Media projects",
   "main": "index.js",
   "scripts": {},
