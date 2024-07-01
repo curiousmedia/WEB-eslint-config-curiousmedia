@@ -5,7 +5,7 @@ Shared ESLint config used for JavaScript in projects at Curious Media.
 Create a `eslint.config.js` file in the root of your project.
 
 ```js
-const config = require("eslint-config-curiousmedia");
+const config = require("@curiousmedia/eslint-config-curiousmedia");
 
 module.exports = [
   ...config
