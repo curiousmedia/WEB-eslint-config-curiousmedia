@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://willis.curiousmedia.com:7991/scm/web/eslint-config-curiousmedia.git"
+    "url": "git@github.com:curiousmedia/WEB-eslint-config-curiousmedia.git"
   },
   "author": "Jason Lavorante",
   "license": "MIT",
